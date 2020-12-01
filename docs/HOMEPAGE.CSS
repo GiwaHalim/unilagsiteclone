@@ -6,7 +6,7 @@
   padding: 10px;
   font-size: 15px;
   margin: 0;
-  background-color: red;
+  background-color: brown;
   color: white;
 }
 .head1 {
@@ -46,7 +46,6 @@
   height: 50px;
   width: 100%;
   position: absolute;
-  border: solid;
   z-index: 1;
 }
 .head2 {
@@ -78,7 +77,6 @@
 }
 .search {
   float: right;
-  border: solid;
   z-index: 2;
   position: absolute;
   background-color: blue;
