@@ -45,7 +45,6 @@
   background-color: white;
   height: 50px;
   width: 100%;
-  position: absolute;
   z-index: 1;
 }
 .head2 {
@@ -87,4 +86,14 @@
 
 .search input {
   padding: 10px 0px 10px 0px;
+}
+.positioner {
+  position: relative;
+}
+
+.images {
+  position: relative;
+}
+.img1{
+  width: 100%;
 }
