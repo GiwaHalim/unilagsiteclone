@@ -64,6 +64,13 @@
   padding-right: 5px;
 }
 
+.head2 ul li:hover {
+  background: brown;
+  color: white;
+  padding: 10px 2px;
+  border-radius: 5px;
+}
+
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0px;
@@ -94,6 +101,6 @@
 .images {
   position: relative;
 }
-.img1{
+.img1 {
   width: 100%;
 }
