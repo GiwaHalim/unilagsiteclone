@@ -85,7 +85,6 @@
   float: right;
   z-index: 2;
   position: absolute;
-  background-color: blue;
   right: 50px;
   top: 0;
   display: none;
@@ -103,4 +102,66 @@
 }
 .img1 {
   width: 100%;
+}
+
+.black-div {
+  background: rgb(63, 60, 60);
+  position: absolute;
+  color: white;
+  right: 10%;
+  left: 10%;
+  height: 400px;
+  display: none;
+  z-index: 2;
+}
+.admission {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.sub-admission {
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+}
+
+.sub-admission p {
+  display: inline;
+}
+.pad2 {
+  padding-right: 400px;
+}
+
+.sub-sub-admission {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+}
+
+.academics {
+  text-align: left;
+  padding: 10px 50px 0px 10px;
+}
+
+.academics h2 {
+  color: orange;
+}
+.academics p {
+  padding: 15px 0px 60px 0px;
+}
+.academics button {
+  padding: 5px 10px;
+  background-color: brown;
+}
+
+.academics button a {
+  color: white;
+  text-decoration: none;
+}
+
+.sub-sub-admission div ul li{
+  list-style: none;
+  
+}
+
+.sub-sub-admission div ul li a{
+  color: white;
+  text-decoration: none;
 }
